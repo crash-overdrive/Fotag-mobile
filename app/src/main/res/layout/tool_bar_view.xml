@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tool_bar_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_light"
+    android:elevation="4dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:text="Fotag"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <ImageButton
+        android:id="@+id/clearbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/clearbtn" />
+
+    <ImageButton
+        android:id="@+id/loadbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/loadbtn" />
+
+    <RatingBar
+        android:id="@+id/filter_bar"
+        style="?ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="1.0" />
+
+    <ImageButton
+        android:id="@+id/refreshbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/clearbtn" />
+
+
+</android.support.v7.widget.Toolbar>
